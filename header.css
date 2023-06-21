@@ -2,10 +2,24 @@
   z-index: 1;
   display: flex;
   flex-direction: row;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  border-bottom-style: solid;
+  border-bottom-color: black;
 }
 
 .left-bold-name{
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   font-size: 20px;
+}
+
+.right-section-box{
+  display: flex;
+  right: 10px;
+  border-bottom-style: solid;
+  border-bottom-color: green;
 }
