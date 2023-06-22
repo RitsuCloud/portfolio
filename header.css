@@ -7,11 +7,17 @@
   left: 0;
   top: 0;
   right: 0;
+  border-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: black;
 }
 
 .left-bold-name{
+  /*temp color for testing */
+  background-color: blue;
+  /* this makes this element stretch to the end */
+  flex: 1;
+  display: flex;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   font-size: 20px;
@@ -19,7 +25,16 @@
 
 .right-section-box{
   display: flex;
-  right: 10px;
+  align-items: end;
+}
+
+.temp-element{
+  margin-right: 25px;
+  width: 40px;
+  align-items: center;
+  border-width: 1px;
+  border-radius: 3px;
   border-bottom-style: solid;
   border-bottom-color: green;
+  background-color: red;
 }
