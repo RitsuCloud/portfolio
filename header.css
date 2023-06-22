@@ -11,7 +11,7 @@
   right: 0;
   border-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: black;
+  border-bottom-color: grey;
   background-color: white;
 }
 
@@ -31,14 +31,16 @@
   align-items: center;
 }
 
-.temp-element{
+.home-button,
+.about-button,
+.projects-button{
   align-items: center;
   display: flex;
-  height: 30px;
-  width: 48px;
+  height: 34px;
+  width: 56px;
   border-width: 1px;
   border-style: solid;
-  border-radius: 14px;
+  border-radius: 28px;
   border-color: skyblue ;
 
   margin-right: 26px;
@@ -46,6 +48,13 @@
   padding-left: 15px;
 }
 
-.temp-element:hover{
+.projects-button{
+  padding-left: 10px;
+  padding-right: 8px;
+}
+
+.home-button,
+.about-button,
+.projects-button{
   cursor: pointer;
 }
