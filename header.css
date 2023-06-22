@@ -3,6 +3,8 @@
   display: flex;
   flex-direction: row;
 
+  height: 35px;
+
   position: fixed;
   left: 0;
   top: 0;
@@ -13,28 +15,30 @@
 }
 
 .left-bold-name{
-  /*temp color for testing */
-  background-color: blue;
   /* this makes this element stretch to the end */
   flex: 1;
   display: flex;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   font-size: 20px;
+  align-items: center;
 }
 
 .right-section-box{
   display: flex;
   align-items: end;
+  align-items: center;
 }
 
 .temp-element{
-  margin-right: 25px;
-  width: 40px;
   align-items: center;
+  display: flex;
+  height: 30px;
+  width: 48px;
   border-width: 1px;
-  border-radius: 3px;
-  border-bottom-style: solid;
-  border-bottom-color: green;
-  background-color: red;
+  border-style: solid;
+  border-radius: 14px;
+  border-color: skyblue ;
+
+  margin-right: 26px;
 }
