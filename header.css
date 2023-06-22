@@ -54,8 +54,10 @@
   padding-right: 8px;
 }
 
-.home-button,
-.about-button,
-.projects-button{
+.home-button:hover,
+.about-button:hover,
+.projects-button:hover{
   cursor: pointer;
+  background-color: gray;
+  font-weight: bold;
 }
