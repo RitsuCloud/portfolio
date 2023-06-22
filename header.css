@@ -35,6 +35,8 @@
 .home-button,
 .about-button,
 .projects-button{
+  text-decoration: none;
+
   align-items: center;
   display: flex;
   height: 34px;
