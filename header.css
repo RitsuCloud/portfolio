@@ -5,6 +5,7 @@
 
   height: 60px;
 
+  font-family: 'Open Sans', sans-serif;
   position: fixed;
   left: 0;
   top: 0;
@@ -19,7 +20,6 @@
   /* this makes this element stretch to the end */
   flex: 1;
   display: flex;
-  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   font-size: 20px;
   align-items: center;
@@ -48,7 +48,7 @@
 
   margin-right: 26px;
 
-  padding-left: 15px;
+  padding-left: 10px;
 }
 
 .projects-button{
