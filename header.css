@@ -33,34 +33,22 @@
   align-items: center;
 }
 
+.linkedIn-button,
 .home-button,
 .about-button,
 .projects-button{
   text-decoration: none;
-
   align-items: center;
   display: flex;
-  height: 34px;
-  width: 56px;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 28px;
-  border-color: skyblue ;
-
   margin-right: 26px;
-
   padding-left: 10px;
 }
 
-.projects-button{
-  padding-left: 10px;
-  padding-right: 8px;
-}
-
+.linkedIn-button:hover,
 .home-button:hover,
 .about-button:hover,
 .projects-button:hover{
   cursor: pointer;
-  background-color: gray;
+  color: skyblue;
   font-weight: bold;
 }
