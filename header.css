@@ -37,18 +37,8 @@
 .home-button,
 .about-button,
 .projects-button{
-  text-decoration: none;
   align-items: center;
   display: flex;
   margin-right: 26px;
   padding-left: 10px;
-}
-
-.linkedIn-button:hover,
-.home-button:hover,
-.about-button:hover,
-.projects-button:hover{
-  cursor: pointer;
-  color: skyblue;
-  font-weight: bold;
 }
