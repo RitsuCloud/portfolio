@@ -5,6 +5,9 @@
   /*header has 60px height */
   margin-top: 65px;
   z-index: 0;
+
+  /*margin for click top*/
+  scroll-margin-top: 65px;
 }
 
 a {
@@ -20,4 +23,8 @@ a:hover{
 
 body{
   background-color: rgb(128,128,128);
+}
+
+.contact-id-class{
+  scroll-margin-top: 65px;
 }
