@@ -11,8 +11,13 @@
 }
 
 a {
+  font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   color: black;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
 }
 
 a:hover{
