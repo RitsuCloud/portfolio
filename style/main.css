@@ -24,5 +24,7 @@
 .summary{
   font-family: 'Open Sans', sans-serif;
   color: black;
-  padding-top: 140px;
+  font-size: 20px;
+  padding-top: 240px;
+  padding-right: 120px;
 }
