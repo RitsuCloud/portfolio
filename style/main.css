@@ -8,11 +8,21 @@
 
   /*margin for click top*/
   scroll-margin-top: 65px;
+  
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: 1fr 1fr;
 }
 
 .my-image{
+  background-color: lightblue;
   padding-top: 100px;
-  padding-left: 200px;
+  padding-left: 130px;
   width:550px;
   height:auto;
+}
+
+.summary{
+  padding-top: 140px;
+  background-color: lightpink;
 }
