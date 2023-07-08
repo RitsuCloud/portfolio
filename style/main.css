@@ -1,0 +1,18 @@
+.main-content{
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+
+  /*header has 60px height */
+  margin-top: 65px;
+  z-index: 0;
+
+  /*margin for click top*/
+  scroll-margin-top: 65px;
+}
+
+.my-image{
+  padding-top: 100px;
+  padding-left: 200px;
+  width:550px;
+  height:auto;
+}
