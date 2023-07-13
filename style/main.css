@@ -25,7 +25,7 @@
 
 .my-image{
   opacity: 0;
-  animation: fadeInAnimation ease 2s;
+  animation: fadeInAnimation ease 3s;
   animation-fill-mode: forwards;
   width:550px;
   height:auto;
@@ -44,7 +44,7 @@
   width: 500px;
 
   opacity: 0;
-  
+
   animation: fadeInAnimation ease 2s;
   animation-fill-mode: forwards;
   animation-delay: 0.5s;
