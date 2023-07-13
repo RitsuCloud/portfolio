@@ -1,6 +1,7 @@
-document.querySelector('contact-button').addEventListener('click', jump)
+window.onload = function(){
+  
+    var w = window.innerWidth
+    var h = window.innerHeight
 
-function jump(anchor){
-  window.location.href = "#"+anchor;
-  window.scrollBy(0,-30) 
-}
+    document.getElementById('output').innerHTML = "Width: " + w + " Height: " + h;
+};
