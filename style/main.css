@@ -12,14 +12,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 40px;
-
-  animation: fadeInAnimation ease 2s;
-  animation-fill-mode: forwards;
 }
 
 @keyframes fadeInAnimation {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
   100% {
       opacity: 1;
@@ -27,6 +24,9 @@
 }
 
 .my-image{
+  opacity: 0;
+  animation: fadeInAnimation ease 2s;
+  animation-fill-mode: forwards;
   width:550px;
   height:auto;
 }
@@ -42,4 +42,10 @@
   padding-top: 70px;
   padding-right: 120px;
   width: 500px;
+
+  opacity: 0;
+  
+  animation: fadeInAnimation ease 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
 }
