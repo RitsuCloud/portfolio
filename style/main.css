@@ -7,7 +7,7 @@
   z-index: 0;
 
   /*margin for click top*/
-  scroll-margin-top: 65px;
+  scroll-margin-top: 120px;
   
   display: grid;
   grid-template-columns: 1fr 1fr;
