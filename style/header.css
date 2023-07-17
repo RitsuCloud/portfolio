@@ -11,7 +11,8 @@
   top: 0;
   right: 0;
   border-width: 1px;
-  background-color: rgb(128,128,128);
+  /*background-color: rgb(128,128,128);*/
+  background: linear-gradient(90deg, #bdc3c7, #2c3e50);
 }
 
 .left-bold-name{
