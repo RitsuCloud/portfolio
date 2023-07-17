@@ -15,6 +15,21 @@ a:hover{
 }
 
 body{
-  background: linear-gradient(90deg, #bdc3c7, #2c3e50);
+  /* grey */
+  /*background: linear-gradient(90deg, #bdc3c7, #2c3e50);*/
+
+  /* monlit
+  background: linear-gradient(90deg, #0F2027, #203A43,#2C5364);*/
+
+  /* ocean
+  /*background: linear-gradient(90deg, #373B44, #4286f4)*/
+
+  /* Pink blue ish
+  background: linear-gradient(90deg, #7F7FD5, #86A8E7,#91EAE4)*/
+
+  /* pink to blue kinda
+  background: linear-gradient(90deg, #aa4b6b, #6b6b83,#91EAE4)*/
+
+  background: linear-gradient(90deg, #2C3E50, #4CA1AF)
 }
 
