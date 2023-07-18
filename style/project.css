@@ -1,3 +1,41 @@
+.project-display-title{
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: bolder;
+  font-size: 24px;
+  padding-left: 50px;
+}
+
+.castle-env-title{
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 330px;
+  padding-top: 30px;
+}
 .project-container{
-  scroll-margin-top: 65px;
+  scroll-margin-top: 145px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.castle-env-imgs{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.castle-img{
+  width: 450px;
+}
+
+.castle-env-description{
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 20px;
+  padding-left: 200px;
+  width: 440px;
+  padding-top: 50px;
 }
