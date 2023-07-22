@@ -6,7 +6,8 @@
   padding-left: 50px;
 }
 
-.castle-env-title{
+.castle-env-title,
+.discord-bot-display-title{
   font-family: 'Open Sans', sans-serif;
   color: black;
   font-size: 20px;
@@ -14,7 +15,9 @@
   padding-left: 330px;
   padding-top: 30px;
 }
-.project-container{
+
+.castle-project-container,
+.discord-bot-container{
   scroll-margin-top: 145px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -31,7 +34,8 @@
   width: 450px;
 }
 
-.castle-env-description{
+.castle-env-description,
+.discord-bot-description{
   font-family: 'Open Sans', sans-serif;
   color: black;
   font-size: 20px;
