@@ -1,6 +1,6 @@
 .project-display-title{
   font-family: 'Open Sans', sans-serif;
-  color: black;
+  color: white;
   font-weight: bolder;
   font-size: 24px;
   padding-left: 50px;
@@ -9,7 +9,7 @@
 .castle-env-title,
 .discord-bot-display-title{
   font-family: 'Open Sans', sans-serif;
-  color: black;
+  color: white;
   font-size: 20px;
   font-weight: bold;
   padding-left: 330px;
@@ -37,7 +37,7 @@
 .castle-env-description,
 .discord-bot-description{
   font-family: 'Open Sans', sans-serif;
-  color: black;
+  color: white;
   font-size: 20px;
   padding-left: 200px;
   width: 440px;

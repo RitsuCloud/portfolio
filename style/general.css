@@ -1,7 +1,7 @@
 a {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 p{
@@ -30,5 +30,20 @@ body{
   /* pink to blue kinda
   background: linear-gradient(90deg, #aa4b6b, #6b6b83,#91EAE4)*/
 
-  background: linear-gradient(90deg, #2C3E50, #4CA1AF)
+  /*background: linear-gradient(90deg, #2C3E50, #4CA1AF)*/
+  background-color:black;
+  background-image:
+  radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+  radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+  radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  z-index: 0;
+}
+
+.contact-info-container{
+  margin-top: 500px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
 }
