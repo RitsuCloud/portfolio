@@ -23,6 +23,11 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.discord-bot-image{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
 .castle-env-imgs{
   display: grid;
   grid-template-columns: 1fr 1fr;
