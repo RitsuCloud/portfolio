@@ -23,11 +23,7 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.discord-bot-image{
-  font-family: 'Open Sans', sans-serif;
-  color: white;
-}
-
+.discord-bot-images,
 .castle-env-imgs{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -35,6 +31,7 @@
   column-gap: 10px;
 }
 
+.discord-bot-img,
 .castle-img{
   width: 450px;
 }
